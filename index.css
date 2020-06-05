@@ -1,9 +1,26 @@
+#topNav {
+    text-align: right;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+}
+
 input[type=search] {
 
-    width: 80%;
+    width: 50%;
     padding: 12px 20px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
     box-sizing: border-box;
     border-radius: 20px;
 }
@@ -13,4 +30,24 @@ input[type=search] {
     margin-left: auto;
     margin-right: auto;
 
+}
+
+img {
+    margin-top: 100px;
+}
+
+.buttons {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin: 20px;
+
+}
+
+#footer {
+    margin-top: 200px;
+    text-align: center;
+
+    padding: auto;
+    background-color: lightgray;
 }
